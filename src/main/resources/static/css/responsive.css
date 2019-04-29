@@ -1022,7 +1022,7 @@
 
     .slider_about:after {
         width: 220px;
-        background: url(../images/eventslidertopBorder.png);
+        background: url(../../images/eventslidertopBorder.png);
     }
 
     .slider_about:before {
@@ -1638,7 +1638,7 @@
 
     .slider_about:after {
         width: 220px;
-        background: url(../images/eventslidertopBorder.png);
+        background: url(../../images/eventslidertopBorder.png);
     }
 
     .slider_about:before {
