@@ -1,0 +1,2347 @@
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .header_right ul {
+        line-height: 36px;
+        padding-right: 3px;
+        float: right;
+
+    }
+
+    .get-start {
+        font-size: 15px;
+    }
+
+    .navbar {
+
+        padding-bottom: 20px;
+        padding-left: 0px;
+        padding-right: 0px;
+        padding-top: 0px;
+
+    }
+
+    .navbar-nav {
+        margin-right: 20px;
+    }
+
+    .navbar-expand-lg .navbar-nav .nav-link {
+        padding-top: 40px;
+        font-size: 15px;
+    }
+
+    .navbar-brand {
+        padding-top: 10px;
+    }
+
+
+    .header_left ul .eml {
+        display: inline;
+        font-size: 15px;
+    }
+
+
+    .header_right ul {
+        line-height: 36px;
+        padding-left: 0px;
+        float: right;
+
+    }
+
+    /*      header css end here*/
+
+    .bnr_text p {
+        padding-right: 0;
+    }
+
+    .bnr_text {
+        text-align: center;
+        padding-left: 100px;
+        padding-right: 100px;
+    }
+
+
+    .bnr_text h1 span {
+        padding-bottom: 10px;
+    }
+
+    .bnr_text {
+        padding-top: 70px;
+        padding-bottom: 200px;
+    }
+
+    /*    banner part end here*/
+
+    .about_part {
+        padding-bottom: 28px;
+    }
+
+    .about_text {
+        padding-bottom: 80px;
+    }
+
+    .about_text .button a {
+        margin-top: 18px;
+    }
+
+    #our_course .slick-track {
+        padding-bottom: 0px;
+    }
+
+    /*  about css end here   */
+    #event .section_title {
+        padding-top: 0px;
+    }
+
+    .event-text h3 {
+        font-size: 18px;
+        margin-bottom: 4px;
+    }
+
+    .event-text .sem_title {
+        font-size: 12px;
+        padding-right: 0;
+        padding-bottom: 8px;
+    }
+
+    .event-text p {
+        font-size: 12px;
+        padding-bottom: 6px;
+    }
+
+    .event-img {
+        position: relative;
+        padding-top: 10px;
+    }
+
+    .event-img1 {
+        padding-top: 6px;
+    }
+
+    .event-text a {
+        font-size: 15px;
+    }
+
+    .event_bg {
+        margin-bottom: 27px;
+    }
+
+    #event {
+        padding-bottom: 80px;
+    }
+    
+     #event .pb-calendar{
+        
+    margin-bottom: 30px;
+    }
+   
+#event .pb-calendar .top-frame > .year-month-frame {
+	padding-left: 180px;
+	line-height: 38px;
+}
+#event .col {
+	width: 40px;
+	height: 53px;
+	font-weight: 400;
+	font-family: 'Arimo';
+	font-size: 12px;
+	text-align: center;
+	line-height: 51px;
+	color: #2d3e50;
+	z-index: 333;
+}
+    .pb-calendar .top-frame > .control-frame {
+	 padding-right: 0px; 
+	 padding-top: 0px; 
+}
+    
+    #event h2 {
+	font-size: 16px;
+}
+   
+  
+    #event .pb-calendar {
+	background: #fff;
+	border: 30px solid #f5f5f5;
+	box-sizing: border-box;
+	min-height: 434px;
+	max-height: 434px;
+	transition: all linear .4s;
+        overflow-y: hidden;
+        overflow-x: hidden;
+}
+
+    /*  event css start here   */
+    #teacher {
+        padding-bottom: 40px;
+    }
+
+    #test-faq {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+
+    .card-header .btn-link {
+        font-size: 18px;
+    }
+
+    .test-text {
+        padding-top: 0px;
+    }
+
+    .test-text h3 {
+        font-size: 16px;
+    }
+
+    .teacher-prof .teacher-text-hover {
+        top: 78%;
+    }
+
+    .course-one .enroll a {
+        bottom: -26px;
+    }
+
+    #teacher .section_title {
+        padding-top: 100px;
+    }
+
+    .overlay_social a {
+        font-size: 10px;
+        top: 50%;
+        left: 40%;
+        transform: translate(-29%, -50%);
+    }
+
+    /*  teacher css start here   */
+    .blog-galarry .blog_item .blog-gtop1 ul {
+        margin-left: 85%;
+    }
+
+    .gal-top .blog_item .blog-gtop1 .bgal-text h4 a {
+        font-size: 17px;
+        margin-top: 3%;
+    }
+
+    .gal-top .blog_item .blog-gtop1 .bgal-text p {
+        padding-bottom: 15px;
+    }
+
+    .gal-top .blog_item .blog-gtop1 .g-top1-footer .date p,
+    .gal-top .blog_item .blog-gtop1 .g-top1-footer .share p {
+        font-size: 11px;
+    }
+
+    .gal-top .blog_item .blog-gtop1 .g-top1-footer .view p {
+        font-size: 11px;
+        padding-left: 0px;
+    }
+
+    .gal-bottom .blog_item .btm-text1 .bgal-text h4 {
+        margin-top: -15px;
+        font-size: 13px;
+    }
+
+    #contact-info {
+        padding-bottom: 28px;
+    }
+
+    .slick-dotted.slick-slider {
+        margin-bottom: 0px;
+    }
+
+    #support {
+        margin-top: -9%;
+    }
+
+    #teacher {
+        padding-bottom: 70px;
+    }
+
+    .course-one .profile {
+        margin-left: 25px;
+    }
+
+    .crs_footer {
+        padding-bottom: 40px;
+    }
+
+    .course-one .pro-rating i {
+        padding-left: 0;
+    }
+
+    .course-one .crs_footer P {
+        font-size: 10px;
+    }
+
+    #comment_sms {
+        padding-bottom: 20px;
+    }
+
+    /*============================
+    about us page  css start
+    ============================*/
+    #about_a .about_part {
+        padding-top: 0px;
+    }
+
+    #about_a .about_part .about_slider_text .text_top span {
+        display: none;
+    }
+
+    #about_a .about_slider_text .text_top {
+        padding-bottom: 30px;
+    }
+
+    #about_video {
+        padding-top: 50px;
+        padding-bottom: 42px;
+    }
+
+    .about_video {
+        padding-top: 47px;
+
+    }
+
+
+    #about_video .about_video:after {
+        top: 40px;
+    }
+
+    /*============================
+    about us page  css end
+    ============================*/
+
+    /*============================
+    Event_detils  page  css start
+    ============================*/
+
+    #event_detail {
+        padding-top: 100px;
+        padding-bottom: 80px;
+    }
+
+    #teacher_details {
+        padding-top: 70px;
+    }
+
+    #teacher_details .teacher-text-hover {
+        top: 77%;
+    }
+
+
+
+    /*============================
+    Event_detils  page  css end
+    ============================*/
+
+    /* -----our course  page  css start ------ */
+    #our_course .course_page_slider {
+        padding-top: 70px;
+        padding-bottom: 40px;
+
+    }
+
+    #our_course .course-one .profile {
+        margin-left: 25px;
+    }
+
+
+    #our_course .course-one {
+        margin-bottom: 85px;
+    }
+
+    /* -----our course    page  css end ------ */
+
+
+}
+
+@media(width:992px) {
+
+
+    #support {
+        margin-top: -11%;
+    }
+
+    .teacher-prof .teacher-text-hover {
+        top: 83%;
+    }
+
+    .overlay_social a {
+        font-size: 12px;
+        top: 50%;
+        left: 40%;
+        transform: translate(-29%, -50%);
+    }
+
+    .course-one .profile {
+        margin-left: 0px;
+    }
+
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .header_left ul .eml {
+        display: inline;
+        font-size: 15px;
+    }
+
+
+    .header_right ul {
+        line-height: 36px;
+        padding-left: 0px;
+        float: right;
+
+    }
+
+    /* nav  bar*/
+    .navbar {
+        padding-bottom: 5px;
+    }
+
+    .navbar-brand {
+        padding-top: 0px;
+    }
+
+    .navbar-toggler {
+        padding: 5px 8px;
+    }
+
+    .navbar-nav {
+        margin-right: 0px;
+        margin-top: 15px;
+        margin-bottom: 10px;
+    }
+
+    .navbar-expand-lg .navbar-nav .nav-link {
+        text-align: center;
+        padding-top: 5px;
+        padding-left: 40px;
+    }
+
+    .get-start {
+        display: none;
+    }
+
+    .bnr_text {
+        padding-top: 44px;
+        padding-bottom: 120px;
+        text-align: center;
+    }
+
+    .bnr_text h1 span {
+        font-size: 26px;
+        text-align: center;
+    }
+
+    .bnr_text h1 {
+        font-size: 40px;
+        text-align: center;
+        padding-bottom: 20px;
+    }
+
+    .bnr_text p {
+        font-size: 12px;
+        text-align: center;
+        line-height: 24px;
+        padding-right: 0px;
+    }
+
+    .left_arrow {
+        font-size: 23px;
+        top: 58%;
+        left: 20px;
+        width: 40px;
+        height: 40px;
+        line-height: 38px;
+        text-align: center;
+    }
+
+    .right_arrow {
+        font-size: 23px;
+        top: 58%;
+        right: 20px;
+        width: 40px;
+        height: 40px;
+        line-height: 38px;
+        text-align: center;
+    }
+
+    .back_to_top i {
+        width: 30px;
+        height: 30px;
+        line-height: 30px;
+
+    }
+
+    .bnr_text a {
+        font-size: 14px;
+        padding: 14px 12px;
+        margin: 35px 4px 0 10px;
+        margin-top: 5px;
+    }
+
+    /*  banner text end*/
+
+
+    #support {
+        margin-top: -90px;
+        padding: 0 15px;
+    }
+
+    .support .online .text-center h4 {
+        font-size: 20px;
+    }
+
+    .support .online img {
+        padding-top: 9px;
+        padding-bottom: 14px;
+    }
+
+
+    /*   online support part css end*/
+
+    .about_part {
+        padding-top: 70px;
+        padding-bottom: 70px;
+    }
+
+    .section_title p {
+
+        padding: 0px 19px;
+    }
+
+    .about_text {
+        padding-top: 15px;
+
+
+    }
+
+    .about_text .button a {
+        font-size: 16px;
+    }
+
+    /*    about  part css  end*/
+    .counter_item h5 {
+        font-size: 20px;
+    }
+
+    .counter_item h3 {
+        font-size: 34px;
+    }
+
+    /*   counter part css end*/
+
+
+    #our_course .section_title {
+        padding-top: 70px;
+
+    }
+
+    /*   course part css end*/
+
+    .blog_item {
+        margin-bottom: 30px;
+    }
+
+    .gal-top .blog_item .blog-gtop1 .bgal-text h4 a {
+        margin-top: 26%;
+    }
+
+    .gal-top .blog_item .blog-gtop1 .g-top1-footer .date p {
+        padding-left: 30px;
+    }
+
+    .gal-bottom .blog_item .btm-text1 .bgal-text h4 {
+        margin-top: 42%;
+    }
+
+    .gal-bottom {
+        padding-bottom: 50px;
+    }
+
+    /*    blog part css end*/
+
+    .trainer_pro_details .Pro_img,
+    .trainer_pro_details .profile {
+        text-align: center;
+
+    }
+
+    .trainer_pro_details .Pro_img img {
+        display: inline-block;
+
+    }
+
+    .trainer_pro_details .pro-rating {
+        text-align: center;
+        padding-left: 15px;
+    }
+
+    .crs_footer {
+        padding-top: 15px;
+        padding-bottom: 40px;
+        text-align: center;
+    }
+
+    .course-one .crs-details p {
+        padding-bottom: 15px;
+        text-align: center;
+    }
+
+    .course-one .crs-details h4 {
+        text-align: center;
+        display: block;
+    }
+
+    #our_course .slick-track {
+        padding-bottom: 0;
+    }
+
+    /*    Course part css end*/
+    #event {
+        padding-bottom: 50px;
+    }
+
+    #event .section_title {
+        padding-top: 0px;
+        padding-bottom: 70px;
+    }
+
+    .event-text p {
+        padding-bottom: 33px;
+    }
+
+    .event-text a {
+        margin-top: 43px;
+    }
+
+ #event .pb-calendar{
+        
+    margin-bottom: 30px;
+    }
+    .pb-calendar .top-frame > .control-frame{
+        padding-right: 0px;
+    }
+    #event .pb-calendar .top-frame > .year-month-frame {
+	font-size: 30px;
+	padding-left: 226px;
+}
+
+#event .col {
+	width: 66px;
+	height: 66px;
+	font-weight: 400;
+	font-family: 'Arimo';
+	font-size: 14px;
+	text-align: center;
+	line-height: 66px;
+	color: #2d3e50;
+	z-index: 333;
+}
+    
+    #event .pb-calendar .top-frame > .year-month-frame {
+	font-size: 30px;
+	padding-left: 231px;
+        padding-right: 115px;
+	line-height: 42px;
+}
+   
+  
+    #event .pb-calendar {
+	background: #fff;
+	border: 30px solid #f5f5f5;
+	box-sizing: border-box;
+	min-height: 527px;
+	max-height: 527px;
+	transition: all linear .4s;
+        overflow-y: hidden;
+        overflow-x: hidden;
+}
+    
+
+    /*    Events part css end*/
+
+    #test-faq {
+        padding-top: 50px;
+        padding-bottom: 70px;
+    }
+
+    #contact-info .content-text .c-text-left ul li {
+        margin-bottom: 0px;
+    }
+
+    /*    testimonial  part css end*/
+
+    #teacher {
+        padding-bottom: 60px;
+    }
+
+
+    .teacher-prof .teacher-text-hover {
+        top: 78%;
+    }
+
+    #teacher .section_title {
+        padding-top: 70px;
+        padding-bottom: 60px;
+    }
+
+    /*    teacher part css end */
+
+
+
+    .slick-dotted.slick-slider {
+        margin-bottom: 0px;
+    }
+
+    #contact-info {
+        padding-bottom: 30px;
+    }
+
+    #contact-info .cheader-center h3 {
+        padding-top: 30px;
+    }
+
+    #contact-info .content-text .c-text-location .address .address_title {
+        padding-bottom: 5px;
+    }
+
+    /*   contact part css end */
+
+
+    /*============================
+    about us page  css start
+    ============================*/
+    #about_support {
+        margin-top: -93px;
+    }
+
+    .about_banner_text .breadcrumb {
+        padding-bottom: 120px;
+    }
+
+    #about_a .about_slider_text {
+        padding-top: 70px;
+    }
+
+    #about_video .full_text {
+        padding-left: 15px;
+
+    }
+
+    #about_video {
+        padding-bottom: 70px;
+    }
+
+    #about_a .about_part {
+        padding-bottom: 0;
+    }
+
+    #about_video .about_part {
+        padding-bottom: 0;
+    }
+
+    #about_video .button a {
+        margin-top: 40px;
+    }
+
+
+    /*============================
+    about us page  css end
+    ============================*/
+    /*============================
+      Blog_details  page  css strt
+    ============================*/
+
+    #blog_details {
+        padding-top: 70px;
+        padding-bottom: 40px;
+    }
+
+    .blog_details_img {
+        padding-bottom: 30px;
+    }
+
+    .blog_posted_by p {
+        font-size: 14px;
+    }
+
+    .blog_posted_by .blog_title_name {
+        padding-bottom: 15px;
+        font-size: 12px;
+    }
+
+    .commentor_details_header h4 {
+        padding-top: 15px;
+    }
+
+
+    .posted_by {
+        padding-bottom: 26px;
+    }
+
+    .tag_head h3 {
+        padding-bottom: 20px;
+        font-size: 17px;
+    }
+
+    .tag_detals ul li a {
+        display: block;
+        margin: 3px -1px;
+        font-size: 12px;
+    }
+
+    .commentator_two:before {
+        display: none;
+    }
+
+
+    .commentor_details_header p {
+        display: block;
+        text-align: left;
+    }
+
+    /*============================
+      Blog_details  page  css end
+    ============================*/
+
+    /*============================
+    Event_detils  page  css start
+    ============================*/
+
+    #event_detail {
+        padding-top: 70px;
+        padding-bottom: 50px;
+    }
+
+    #event_detail .event-text p {
+        padding-bottom: 0px;
+    }
+
+    #event_detail .event_right h1 {
+        padding-top: 70px;
+        padding-bottom: 40px;
+    }
+
+    #event_detail .event-text h3 {
+        font-size: 28px;
+        padding-bottom: 15px;
+    }
+
+    #event_detail .event-text p {
+        padding-bottom: 26px;
+    }
+
+    /*============================
+    Event_detils  page  css end
+    ============================*/
+
+    /* -----our course  page  css start ------ */
+    #our_course .course_page_slider {
+        padding-top: 70px;
+        padding-bottom: 0px;
+
+    }
+
+    #our_course .course-one {
+        margin-bottom: 85px;
+    }
+
+    /* -----our course    page  css end ------ */
+    /*============================
+    our_teacher  page  css start
+    ============================*/
+    #teacher_details {
+        padding-top: 70px;
+        padding-bottom: 0px;
+    }
+
+    #teacher_details .teacher-prof {
+        margin-bottom: 50px;
+    }
+
+    #teacher_details .teacher-text-hover {
+        top: 83%;
+    }
+
+    #teacher_details .teacher {
+        padding-bottom: 0;
+    }
+
+
+    /*============================
+    our_teacher  page  css end
+    ============================*/
+
+}
+
+@media (width: 768px) {
+
+    .teacher-prof .teacher-text-hover {
+        top: 84%;
+    }
+
+
+
+
+}
+
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .header_left ul .eml {
+        display: none;
+    }
+
+
+    /* nav  bar*/
+    .navbar {
+        padding-bottom: 5px;
+    }
+
+    .navbar-brand {
+        padding-top: 0px;
+    }
+
+    .navbar-toggler {
+        padding-right: 20px;
+    }
+
+    .navbar-nav {
+        margin-right: 0px;
+        margin-top: 15px;
+        margin-bottom: 10px;
+    }
+
+    .navbar-expand-lg .navbar-nav .nav-link {
+        text-align: center;
+        padding-top: 5px;
+        padding-left: 40px;
+    }
+
+    .get-start {
+        display: none;
+    }
+
+    .bnr_text {
+        padding-top: 44px;
+        padding-bottom: 120px;
+        text-align: center;
+    }
+
+    .bnr_text h1 span {
+        font-size: 26px;
+        text-align: center;
+    }
+
+    .bnr_text h1 {
+        font-size: 40px;
+        text-align: center;
+        padding-bottom: 20px;
+    }
+
+    .bnr_text p {
+        font-size: 12px;
+        text-align: center;
+        line-height: 24px;
+        padding-right: 0;
+    }
+
+    .left_arrow {
+        font-size: 23px;
+        top: 58%;
+        left: 20px;
+        width: 40px;
+        height: 40px;
+        line-height: 38px;
+        text-align: center;
+    }
+
+    .right_arrow {
+        font-size: 23px;
+        top: 58%;
+        right: 20px;
+        width: 40px;
+        height: 40px;
+        line-height: 38px;
+        text-align: center;
+    }
+
+    .back_to_top i {
+        width: 30px;
+        height: 30px;
+        line-height: 30px;
+
+    }
+
+    .bnr_text a {
+        font-size: 14px;
+        padding: 14px 12px;
+        margin: 35px 4px 0 10px;
+        margin-top: 5px;
+    }
+
+
+
+    /*  banner text end*/
+    #support {
+        margin-top: -16%;
+        padding: 0 15px;
+    }
+
+    .support .online img {
+        padding-top: 9px;
+        padding-bottom: 14px;
+    }
+
+
+    .support .online {
+        width: 100%;
+        padding-bottom: 15px;
+        border: 1px solid #dddddd;
+        position: static;
+
+    }
+
+    /*   online support part css end*/
+
+    .about_part {
+        padding-top: 5px;
+        margin-top: 0px;
+        padding-bottom: 50px;
+    }
+
+    .about_part .section_title {
+        padding-bottom: 46px;
+        margin-top: 70px;
+    }
+
+    .section_title p {
+        font-size: 14px;
+        padding: 0px 0px;
+    }
+
+    .slider_about:after {
+        width: 220px;
+        background: url(../images/eventslidertopBorder.png);
+    }
+
+    .slider_about:before {
+        width: 220px;
+    }
+
+    .about_part .slick-dots {
+        top: 78%;
+        left: 50%;
+    }
+
+    .about_text {
+        padding-top: 0px;
+        padding-bottom: 20px;
+        text-align: center;
+    }
+
+    .about_text .button {
+        padding-left: 20px;
+    }
+
+    .about_text .button a {
+        margin-right: 14px;
+        margin-top: 16px;
+        margin-bottom: 10px;
+        font-size: 16px;
+    }
+
+    /*    about part css end*/
+    .counter_item h3 {
+        font-size: 26px;
+    }
+
+    .counter_item h5 {
+        font-size: 15px;
+        padding-bottom: 6px;
+    }
+
+    .counter_item {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    /*   counter part css end   */
+    .course-one .crs_footer P {
+        margin-left: 0px;
+    }
+
+    .course-one .crs_footer P span {
+        display: none;
+    }
+
+    .course-one .crs_footer .m_name {
+        margin-left: 0px;
+    }
+
+    .course-one .course-banner:after {
+        height: 94%;
+    }
+
+    #our_course .section_title {
+        padding-top: 70px;
+        padding-bottom: 38px;
+    }
+
+    .course-one {
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 20px;
+        padding-bottom: 50px;
+    }
+
+    .trainer_pro_details .Pro_img,
+    .trainer_pro_details .profile {
+        text-align: center;
+
+    }
+
+    .trainer_pro_details .Pro_img img {
+        display: inline-block;
+
+    }
+
+    .trainer_pro_details .pro-rating {
+        text-align: center;
+        padding-left: 15px;
+    }
+
+    .crs_footer {
+        padding-top: 15px;
+        padding-bottom: 0px;
+        text-align: center;
+    }
+
+    .course-one .crs-details p {
+        padding-bottom: 15px;
+        text-align: center;
+    }
+
+    .course-one .crs-details h4 {
+        text-align: center;
+        display: block;
+    }
+
+    .course-one .enroll a {
+        padding: 12px 18px;
+        left: 50%;
+        bottom: -26px;
+        transform: translateX(-50%);
+    }
+
+    /*   our course part css end*/
+    #event {
+        padding-bottom: 50px;
+    }
+
+    #event .section_title {
+        padding-top: 0px;
+        padding-bottom: 40px;
+    }
+
+    #our_course .slick-track {
+        padding-bottom: 0;
+    }
+
+    .calendar-title {
+        padding-left: 12px;
+        margin-bottom: 30px;
+    }
+
+    .event-text h3 {
+        font-size: 20px;
+        margin-top: -5px;
+    }
+
+    .event_bg {
+        margin-bottom: 30px;
+    }
+
+    .event-text a {
+        margin-top: 0px;
+    }
+
+    .event-text p {
+        padding-bottom: 10px;
+    }
+
+    #test-faq {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    #test-faq .section_title {
+        padding-bottom: 40px;
+    }
+
+    .test-text {
+        padding-bottom: 40px;
+    }
+
+    .card-header .btn-link {
+        font-size: 16px;
+    }
+
+    .card-body {
+        padding-top: 5px;
+        font-size: 14px;
+    }
+    
+/*    calender start*/
+    
+    #event .pb-calendar{
+        
+    margin-bottom: 30px;
+    }
+    .pb-calendar .top-frame > .control-frame{
+        padding-right: 0px;
+    }
+    #event .pb-calendar .top-frame > .year-month-frame {
+	font-size: 30px;
+	padding-left: 226px;
+}
+
+#event .col {
+	width: 50px;
+	height: 50px;
+	font-weight: 400;
+	font-family: 'Arimo';
+	font-size: 12px;
+	text-align: center;
+	line-height: 50px;
+	color: #2d3e50;
+	z-index: 333;
+}
+ 
+    #event .pb-calendar .top-frame > .year-month-frame {
+	font-size: 30px;
+	padding-left: 222px;
+        line-height: 45px;
+}
+    
+    #event .pb-calendar {
+	background: #fff;
+	border: 30px solid #f5f5f5;
+	box-sizing: border-box;
+	min-height: 444px;
+	max-height: 444px;
+	transition: all linear .4s;
+        overflow-y: hidden;
+        overflow-x: hidden;
+}
+    
+
+    /*    our event part css end*/
+    #teacher .section_title {
+        padding-top: 70px;
+        padding-bottom: 35px;
+    }
+
+    #teacher {
+        padding-bottom: 50px;
+    }
+
+    .techer-img ul {
+        left: 5%;
+    }
+
+    .teacher-prof .teacher-text-hover {
+        top: 81%;
+    }
+
+    /*    Teacher  part css end*/
+
+    .blog_item {
+        margin-bottom: 30px;
+    }
+
+    .gal-top .blog_item .blog-gtop1 .bgal-text h4 a {
+        margin-top: 28px;
+    }
+
+    .gal-top .blog_item .blog-gtop1 .g-top1-footer .date p {
+        padding-left: 30px;
+    }
+
+    .gal-bottom .blog_item .btm-text1 .bgal-text h4 {
+        margin-top: 24px;
+    }
+
+    /*    blog part css end*/
+    #contact-info .cheader-left {
+        text-align: center;
+    }
+
+    #contact-info .cheader-center h3 {
+        padding-top: 15px;
+        padding-bottom: 26px;
+        text-align: center;
+        font-size: 24px;
+    }
+
+    #contact-info .content-text .c-text-left ul li {
+        margin-bottom: 20px;
+    }
+
+    #contact-info .content-text .c-text-menu1 {
+        margin-left: 68px;
+    }
+
+    #contact-info .content-text .c-text-menu1 ul li a {
+
+        padding-bottom: 10px;
+    }
+
+    #contact-info .content-text .c-text-left .nipa,
+    #contact-info .content-text .c-text-left p,
+    #contact-info .content-text .c-text-location ul,
+    #contact-info .content-text .c-text-left ul,
+    #contact-info .content-header .cheader-left {
+        text-align: center;
+    }
+
+    #contact-info .content-text .c-text-location ul li {
+        display: inline-block;
+        padding-left: 15px;
+        padding-bottom: 5px;
+    }
+
+    #contact-info .content-text .c-text-location .address {
+        padding-bottom: 46px;
+    }
+
+    #contact-info .content-text .c-text-location .address .address_title {
+        text-align: center;
+        margin-bottom: 0px;
+    }
+
+    #contact-info .content-text .c-text-location .address p {
+        text-align: center;
+        padding-bottom: 10px;
+    }
+
+    .gal-bottom {
+        padding-bottom: 50px;
+    }
+
+    /*    contact  part css end*/
+
+    #footer .footer1 p,
+    #footer .footer1 p span {
+        font-size: 12px;
+    }
+
+    .back_to_top i {
+        right: 25px;
+        bottom: 58px;
+    }
+
+    .footer_img {
+        height: 100%;
+        width: 100%;
+    }
+
+    /*============================
+    about us page  css start
+    ============================*/
+
+    #about_a {
+        padding-top: 70px;
+    }
+
+    #about_video .about_part {
+        padding-bottom: 0px;
+    }
+
+    #about_video .about_slider_text .text_top {
+        padding-top: 30px;
+    }
+
+
+    #about_video {
+        padding-top: 0;
+        padding-bottom: 70px;
+
+    }
+
+    /*============================
+    about us page  css end
+    ============================*/
+
+    /*============================
+      Blog_details  page  css strt
+    ============================*/
+
+    #blog_details {
+        padding-top: 70px;
+        padding-bottom: 40px;
+    }
+
+    .blog_details_img {
+        padding-bottom: 30px;
+    }
+
+    .blog_posted_by p {
+        font-size: 14px;
+    }
+
+    .blog_posted_by .blog_title_name {
+        padding-bottom: 15px;
+        font-size: 12px;
+    }
+
+    .commentor_details_header h4 {
+        padding-top: 15px;
+    }
+
+    .posted_by {
+        padding-bottom: 26px;
+    }
+
+    .tag_head h3 {
+        padding-top: 8px;
+        padding-bottom: 20px;
+    }
+
+    .tag_detals ul li a {
+        display: block;
+        margin: 3px -1px;
+    }
+
+    .commentator_two:before {
+        display: none;
+    }
+
+    .commentor_details_header p {
+        display: block;
+        text-align: left;
+    }
+
+    /*============================
+      Blog_details  page  css end
+    ============================*/
+
+    /*============================
+    Event_detils  page  css start
+    ============================*/
+    #about_support {
+        margin-top: -90px;
+    }
+
+    #event_detail {
+        padding-top: 70px;
+        padding-bottom: 50px;
+    }
+
+
+    .event_right h1 {
+        padding-top: 70px;
+        padding-bottom: 40px;
+    }
+
+    #event_detail .event-text-button a {
+        margin-top: 20px;
+    }
+
+
+    /*============================
+    Event_detils  page  css end
+    ============================*/
+    /* -----our course  page  css start ------ */
+    #our_course .course_page_slider {
+        padding-top: 70px;
+        padding-bottom: 40px;
+
+    }
+
+    #our_course .course-one .crs-details h4 {
+        font-size: 16px;
+    }
+
+    #our_course .course-one {
+        margin-bottom: 85px;
+    }
+
+    /* -----our course    page  css end ------ */
+
+    /*============================
+    our_teacher  page  css start
+    ============================*/
+    #teacher_details {
+        padding-top: 70px;
+        padding-bottom: 0px;
+    }
+
+    #teacher_details .teacher-prof {
+        margin-bottom: 50px;
+    }
+
+    #teacher_details .teacher-text-hover {
+        top: 79%;
+    }
+
+    #teacher_details .teacher {
+        padding-bottom: 0;
+    }
+
+
+    /*============================
+    our_teacher  page  css end
+    ============================*/
+
+}
+
+/* Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+    .header_left {
+        display: none;
+    }
+
+    .header_right ul {
+        line-height: 36px;
+        padding-left: 0px;
+        float: right;
+        margin-right: 10px;
+    }
+
+    /* nav  bar*/
+    .navbar {
+        padding-bottom: 5px;
+    }
+
+    .navbar-brand {
+        padding-top: 0px;
+    }
+
+    .navbar-toggler {
+        padding: 5px 8px;
+    }
+
+    .navbar-nav {
+        margin-right: 0px;
+        margin-top: 15px;
+        margin-bottom: 10px;
+    }
+
+    .navbar-expand-lg .navbar-nav .nav-link {
+        text-align: center;
+        padding-top: 5px;
+        padding-left: 40px;
+    }
+
+    .get-start {
+        display: none;
+    }
+
+    .bnr_text {
+        padding-top: 44px;
+        padding-bottom: 120px;
+        text-align: center;
+    }
+
+    .bnr_text h1 span {
+        font-size: 26px;
+        text-align: center;
+    }
+
+    .bnr_text h1 {
+        font-size: 40px;
+        text-align: center;
+        padding-bottom: 20px;
+    }
+
+    .bnr_text p {
+        font-size: 12px;
+        text-align: center;
+        line-height: 24px;
+        padding-right: 0px;
+    }
+
+    .left_arrow {
+        font-size: 23px;
+        top: 58%;
+        left: 20px;
+        width: 40px;
+        height: 40px;
+        line-height: 38px;
+        text-align: center;
+    }
+
+    .right_arrow {
+        font-size: 23px;
+        top: 58%;
+        right: 20px;
+        width: 40px;
+        height: 40px;
+        line-height: 38px;
+        text-align: center;
+    }
+
+    .back_to_top i {
+        width: 30px;
+        height: 30px;
+        line-height: 30px;
+
+    }
+
+    .bnr_text a {
+        font-size: 14px;
+        padding: 14px 12px;
+        margin: 35px 4px 0 10px;
+        margin-top: 5px;
+    }
+
+    /*  banner text end*/
+    #support {
+        margin-top: -88px;
+        padding: 0 15px;
+    }
+
+    .support .online img {
+        padding-top: 9px;
+        padding-bottom: 14px;
+    }
+
+
+    .support .online {
+        width: 100%;
+        padding-bottom: 15px;
+        border: 1px solid #dddddd;
+        position: static;
+
+    }
+
+    /*   online support part css end*/
+
+
+
+    .about_part {
+        padding-top: 0;
+        margin-top: 0px;
+        padding-bottom: 70px;
+    }
+
+    .about_part .section_title {
+        padding-bottom: 46px;
+        margin-top: 70px;
+    }
+
+    .section_title p {
+        font-size: 14px;
+        padding: 0px 0px;
+    }
+
+    .slider_about:after {
+        width: 220px;
+        background: url(../images/eventslidertopBorder.png);
+    }
+
+    .slider_about:before {
+        width: 220px;
+    }
+
+    .about_part .slick-dots {
+        top: 78%;
+        left: 50%;
+    }
+
+    .about_text {
+        padding-top: 0px;
+
+        text-align: center;
+    }
+
+    .about_text .button {
+        padding-left: 20px;
+    }
+
+    .about_text .button a {
+        margin-right: 14px;
+        margin-top: 16px;
+        margin-bottom: 10px;
+        font-size: 16px;
+    }
+
+    /*    about part css end*/
+    .counter_item h3 {
+        font-size: 26px;
+    }
+
+    .counter_item h5 {
+        font-size: 16px;
+        padding-bottom: 6px;
+    }
+
+    .counter_item {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    /*   counter part css end   */
+    .course-one .crs_footer P {
+        margin-left: 0px;
+    }
+
+    .course-one .crs_footer .m_name {
+        margin-left: 0px;
+    }
+
+    .course-one .crs_footer P span {
+        display: none;
+    }
+
+    .course-one .course-banner:after {
+        height: 94%;
+    }
+
+    #our_course .section_title {
+        padding-top: 70px;
+        padding-bottom: 38px;
+    }
+
+    .course-one {
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 20px;
+        padding-bottom: 50px;
+        /*        margin: 0px 76px;*/
+    }
+
+    .trainer_pro_details .Pro_img,
+    .trainer_pro_details .profile {
+        text-align: center;
+
+    }
+
+    .trainer_pro_details .Pro_img img {
+        display: inline-block;
+    }
+
+
+    .trainer_pro_details .pro-rating {
+        text-align: center;
+        padding-left: 15px;
+    }
+
+    .crs_footer {
+        padding-top: 15px;
+        padding-bottom: 0px;
+        text-align: center;
+    }
+
+    .course-one .crs-details p {
+        padding-bottom: 15px;
+        text-align: center;
+    }
+
+    .course-one .crs-details h4 {
+        text-align: center;
+        display: block;
+    }
+
+    .course-one .enroll a {
+        padding: 12px 18px;
+        left: 50%;
+        bottom: -26px;
+        transform: translateX(-50%);
+    }
+
+    /*   our course part css end*/
+    #event {
+        padding-bottom: 50px;
+    }
+
+    #event .section_title {
+        padding-top: 0px;
+        padding-bottom: 40px;
+    }
+
+    .calendar-title {
+        padding-left: 12px;
+        padding-bottom: 30px;
+    }
+
+    .event-text h3 {
+        font-size: 20px;
+        margin-top: 10px;
+    }
+
+    .event_bg {
+        margin-bottom: 30px;
+    }
+
+    .event-text a {
+        margin-top: 10px;
+    }
+
+    #test-faq {
+        padding-top: 50px;
+        padding-bottom: 30px;
+    }
+
+    #test-faq .section_title {
+        padding-bottom: 40px;
+    }
+
+    .test-text {
+        padding-bottom: 30px;
+    }
+
+    .card-header .btn-link {
+        font-size: 16px;
+    }
+
+    .card-body {
+        padding-top: 5px;
+        font-size: 14px;
+    }
+
+    #event .pb-calendar {
+        margin-bottom: 30px;
+    }
+    
+    #event h2 {
+	font-size: 12px;
+	
+}
+#event .pb-calendar .top-frame > .year-month-frame {
+	padding-left: 141px;
+	line-height: 34px;
+}
+    
+    .pb-calendar .top-frame > .control-frame {
+	padding-right: 19px;
+	padding-top: -5px;
+}
+    
+.pb-calendar .top-frame > .year-month-frame .year, .pb-calendar .top-frame > .year-month-frame > .month {
+	
+	margin-right: -16px;
+}
+    #event .col {
+	width: 30px;
+	height: 30px;
+	font-weight: 400;
+	font-family: 'Arimo';
+	font-size: 12px;
+	text-align: center;
+	line-height: 30px;
+	color: #2d3e50;
+	z-index: 333;
+}
+    .pb-calendar .top-frame > .year-month-frame .year, .pb-calendar .top-frame > .year-month-frame > .month {
+	color: #2d3e50;
+	font-family: 'Arimo';
+	font-weight: 400px;
+	font-size: 12px;
+	margin-top: 0px;
+	/* margin-right: 4px; */
+}
+    
+    
+    #event .pb-calendar {
+	background: #fff;
+	border: 15px solid #f5f5f5;
+	box-sizing: border-box;
+	min-height: 300px;
+	max-height: 300px;
+	transition: all linear .4s;
+        overflow-y: hidden;
+        overflow-x: hidden;
+}
+
+    /*    our event part css end*/
+    #teacher .section_title {
+        padding-top: 70px;
+        padding-bottom: 35px;
+    }
+
+    #teacher {
+        padding-bottom: 50px;
+    }
+
+    .techer-img ul {
+        left: 5%;
+    }
+
+    .teacher-prof .teacher-text-hover {
+        top: 82%;
+    }
+
+
+    .gal-top .blog_item .blog-gtop1 .g-top1-footer .date p {
+        padding-left: 0px;
+    }
+
+    /*    Teacher  part css end*/
+
+    .blog_item {
+        margin-bottom: 30px;
+    }
+
+    .blog_item .blog-gtop1 {
+        text-align: center;
+        position: absolute;
+        content: '';
+        background: rgba(0, 0, 0, 0.7);
+    }
+
+
+    .blog_gtop_text {
+        position: absolute;
+        text-align: center;
+        margin: auto;
+        width: 100%;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+
+    .blog-galarry .blog_item .blog-gtop1 .blog_gtop_text ul {
+        margin-left: 0;
+
+    }
+
+    .blog-galarry .blog_item .blog-gtop1 .blog_gtop_text ul li {
+        display: inline-block;
+    }
+
+    .blog-galarry .blog_item .blog-gtop1 .blog_gtop_text ul li a i {
+        width: 40px;
+        height: 40px;
+        line-height: 40px;
+        font-size: 12px;
+        margin-right: 5px;
+        margin-bottom: 0px;
+    }
+
+    .gal-top .blog_item .blog-gtop1 .blog_gtop_text .bgal-text h4 a {
+        font-size: 16px;
+        text-align: center;
+        margin-top: 0px;
+        font-weight: 700;
+        padding-bottom: 8px;
+    }
+
+
+    .gal-top .blog_item .blog-gtop1 .blog_gtop_text .bgal-text p {
+        text-align: center;
+    }
+
+    .gal-top .blog_item .blog-gtop1 .blog_gtop_text .g-top1-footer .date p {
+        font-size: 10px;
+        margin-top: 90px;
+    }
+
+    .gal-top .blog_item .blog-gtop1 .blog_gtop_text .g-top1-footer .view,
+    .gal-top .blog_item .blog-gtop1 .blog_gtop_text .g-top1-footer .share {
+        display: inline-block;
+    }
+
+    .gal-top .blog_item .blog-gtop1 .g-top1-footer .view p {
+        font-size: 10px;
+    }
+
+    .gal-top .blog_item .blog-gtop1 .blog_gtop_text .g-top1-footer .share p {
+        font-size: 10px;
+        padding-left: 0px;
+    }
+
+    .bgal-text {
+        position: absolute;
+        z-index: 1;
+    }
+
+    .gal-bottom {
+        padding-top: 0px;
+        padding-bottom: 50px;
+    }
+
+    .gal-bottom .blog_item {
+        margin: auto;
+        margin-bottom: 30px;
+        width: 290px;
+    }
+
+    .gal-bottom .blog_item .btm-text1 ul {
+        margin-top: 16px;
+    }
+
+    .gal-bottom .blog_item .btm-text1 .bgal-text h4 {
+        margin-top: 27%;
+    }
+
+    /*    blog part css end*/
+    #contact-info .cheader-left {
+        text-align: center;
+    }
+
+    #contact-info .cheader-center h3 {
+        padding-top: 15px;
+        padding-bottom: 26px;
+        text-align: center;
+        font-size: 24px;
+    }
+
+    #contact-info .content-text .c-text-left ul li {
+        margin-bottom: 20px;
+    }
+
+    #contact-info .content-text .c-text-menu1 ul li a {
+        text-align: center;
+        padding-bottom: 10px;
+    }
+
+    #contact-info .content-text .c-text-left .nipa,
+    #contact-info .content-text .c-text-left p,
+    #contact-info .content-text .c-text-location ul,
+    #contact-info .content-text .c-text-left ul,
+    #contact-info .content-header .cheader-left {
+        text-align: center;
+    }
+
+    #contact-info .content-text .c-text-location ul li {
+        display: inline-block;
+        padding-left: 15px;
+        padding-bottom: 5px;
+    }
+
+    #contact-info .content-text .c-text-location .address {
+        padding-bottom: 46px;
+    }
+
+    #contact-info .content-text .c-text-location .address .address_title {
+        text-align: center;
+        margin-bottom: 0px;
+    }
+
+    #contact-info .content-text .c-text-location .address p {
+        text-align: center;
+        padding-bottom: 10px;
+    }
+
+    /*    contact  part css end*/
+
+    #footer .footer1 p,
+    #footer .footer1 p span {
+        font-size: 12px;
+    }
+
+    .back_to_top i {
+        right: 25px;
+        bottom: 58px;
+    }
+
+    .footer_img {
+        height: 100%;
+        width: 100%;
+    }
+
+    /*============================
+    about us page  css start
+    ============================*/
+    .about_banner_text .breadcrumb {
+        padding-bottom: 114px;
+    }
+
+    #about_support {
+        margin-top: -88px;
+        padding: 0 15px;
+    }
+
+    #about_a {
+        padding-top: 70px;
+
+    }
+
+    #about_a .about_slider_text .text_top {
+        padding-right: 15px;
+
+    }
+
+    #about_a .full_text {
+        padding: 0 15px;
+    }
+
+    #about_a .about_part {
+        padding-bottom: 0px;
+    }
+
+    #about_video {
+        padding-left: 15px;
+        padding-bottom: 70px;
+    }
+
+    #about_video .about_video:before,
+    #about_video .about_video:after {
+        width: 150px;
+    }
+
+    .full_text {
+        padding-right: 15px;
+    }
+
+    #about_video .button a {
+        margin-top: 40px;
+    }
+
+
+    /*============================
+    about us page  css end
+    ============================*/
+
+    /*============================
+    Blog_detils page  css start
+    ============================*/
+    #blog_details {
+        padding-top: 70px;
+        padding-bottom: 40px;
+    }
+
+    #blog_details .blog_details_img {
+        padding-bottom: 40px;
+    }
+
+    #comment_sms .comment a {
+        font-size: 18px;
+    }
+
+    #comment_sms .comment-details {
+        padding-bottom: 50px;
+    }
+
+    #blog_details .blog_details_text .blog_body h1 {
+        font-size: 18px;
+    }
+
+    .blog_details_text .blog_body p {
+        padding-left: 0;
+    }
+
+    .text_italic {
+        padding: 0 10px;
+    }
+
+    .list ul li {
+        font-size: 14px;
+        padding-left: 0px;
+    }
+
+    .list {
+        padding-bottom: 0px;
+    }
+
+    .tag_head h3 {
+        padding-bottom: 20px;
+    }
+
+    .tag_detals ul li a {
+        display: block;
+        margin: 4px -1px;
+    }
+
+    .commentor_details_header p {
+        display: block;
+        text-align: left;
+    }
+
+    .blog_posted_by p {
+        display: inline-block;
+        font-size: 14px;
+    }
+
+    .commentor_details_header h4 {
+        padding-top: 10px;
+    }
+
+    .commentator_two:before {
+        display: none;
+    }
+
+    /*============================
+    Blog_detils  page  css end
+    ============================*/
+    /*============================
+    Event_detils  page  css start
+    ============================*/
+    .event_overlay {
+        width: 80px;
+        height: 80px;
+    }
+
+    .event_overlay p {
+        font-size: 20px;
+    }
+
+    #event_detail {
+        padding-top: 70px;
+        padding-bottom: 50px;
+    }
+
+    #event_detail .evnt_left_text .title h1 {
+        font-size: 16px;
+    }
+
+    #event_detail .pro-rating i {
+        font-size: 14px;
+    }
+
+    .txt_p .event-text .sem_title {
+        padding-right: 43px;
+    }
+
+    .event-text a {
+        margin-top: 30px;
+    }
+
+    .event_right h1 {
+        padding-top: 70px;
+        padding-bottom: 50px;
+    }
+
+    /*============================
+    Event_detils  page  css start
+    ============================*/
+
+    /*============================
+    our_Event  page  css start
+    ============================*/
+
+    .all_event .nav {
+        margin-left: 35%;
+        transform: translateX(-44px);
+    }
+
+    .all_event .nav-item .nav-link {
+        font-size: 14px;
+    }
+
+    .event-text a {
+        margin-top: 10px;
+    }
+
+
+    /*============================
+    our_Event   page  css end
+    ============================*/
+
+    /* -----our course  page  css start ------ */
+    #our_course .course_page_slider {
+        padding-top: 70px;
+        padding-bottom: 40px;
+
+    }
+
+    #our_course .course-one .crs-details h4 {
+        font-size: 20px;
+    }
+
+    #our_course .course-one {
+        margin-bottom: 85px;
+    }
+
+    /* -----our course    page  css end ------ */
+
+    /*============================
+    our_teacher  page  css start
+    ============================*/
+    #teacher_details {
+        padding-top: 70px;
+        padding-bottom: 50px;
+    }
+
+    #teacher_details .teacher-prof {
+        margin-bottom: 50px;
+    }
+
+    #teacher_details .teacher-text-hover {
+        top: 89%;
+    }
+
+
+    /*============================
+    our_teacher  page  css end
+    ============================*/
+}
+
+@media(width:480px) {
+     #event .pb-calendar {
+        margin-bottom: 30px;
+    }
+    
+    #event h2 {
+	font-size: 12px;
+	
+}
+#event .pb-calendar .top-frame > .year-month-frame {
+	padding-left: 141px;
+    padding-right: 110px;
+	line-height: 34px;
+}
+    
+    .pb-calendar .top-frame > .control-frame {
+	padding-right: 19px;
+	padding-top: -5px;
+}
+    
+.pb-calendar .top-frame > .year-month-frame .year, .pb-calendar .top-frame > .year-month-frame > .month {
+	
+	margin-right: -16px;
+}
+#event .col {
+	width: 30px;
+	height: 50px;
+	font-weight: 400;
+	font-family: 'Arimo';
+	font-size: 12px;
+	text-align: center;
+	line-height: 50px;
+	color: #2d3e50;
+	z-index: 333;
+}
+    .pb-calendar .top-frame > .year-month-frame .year, .pb-calendar .top-frame > .year-month-frame > .month {
+	color: #2d3e50;
+	font-family: 'Arimo';
+	font-weight: 400px;
+	font-size: 12px;
+	margin-top: 0px;
+	/* margin-right: 4px; */
+}
+    
+    
+    #event .pb-calendar {
+	background: #fff;
+	border: 15px solid #f5f5f5;
+	box-sizing: border-box;
+	min-height: 393px;
+	max-height: 393px;
+	transition: all linear .4s;
+        overflow-y: hidden;
+        overflow-x: hidden;
+}
+    
+/*    event end*/
+    .teacher-prof .teacher-text-hover {
+        top: 88%;
+    }
+
+    #teacher_details .teacher-prof .teacher-text-hover {
+        top: 87%;
+    }
+    
+    
+    
+
+}
+
+@media(width:320px) {
+
+    #teacher_details .teacher-prof .teacher-text-hover {
+        top: 81%;
+    }
+
+}
