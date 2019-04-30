@@ -130,7 +130,7 @@ a {
 h1,
 h2,
 h3,
-h4,
+h4
 {
 	font-weight: 700;
 }
@@ -1069,7 +1069,6 @@ button:focus {
 .pb-calendar .top-frame > .year-month-frame > .month {
 	color: #2d3e50;
 	font-family: 'Arimo';
-	font-weight: 400px;
 	font-size: 20px;
 	margin-top: 0px;
     margin-right: 4px;

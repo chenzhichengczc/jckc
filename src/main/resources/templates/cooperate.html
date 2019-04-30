@@ -1,6 +1,5 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -15,15 +14,15 @@
     <link rel="stylesheet" href="../css/slick-theme.css">
     <link rel="stylesheet" href="../css/pb.calendar.css">
     <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/style1.css">
     <link rel="stylesheet" href="../css/responsive.css">
     <link rel="icon" type="image/x-icon" href="../images/favicon.ico" />
 </head>
-
 <body data-spy="scroll" data-target=".main_menu" data-offset="70">
 
     <!--***********************
     menu header part start
-  ************************-->
+    ************************-->
     <div class="full_manu_header " id="menu_top">
         <div class="container">
             <div class="row">
@@ -56,8 +55,8 @@
     ********************-->
 
     <!--********************
-     navbar-part start
-    ********************-->
+         navbar-part start
+        ********************-->
     <nav class="navbar main_menu navbar-expand-lg navbar-light bg-light">
         <div class="container">
 
@@ -95,52 +94,89 @@
      navbar-part end
     ********************-->
 
-    <!--********************
-     banner part Start
-    ********************-->
-    <section id="banner">
-        <div class="full_slider">
-            <div class="slider">
-                <div class="container ">
-                    <div class="row">
-                        <div class="col-lg-12">
-                            <div class="bnr_text">
-                                <h1><span>金诚科创</span> 软件开发设计有限公司</h1>
-                                <p style="padding: 5px">新生代人们提供最高品质的软件和解决方案的企业.</p>
-                                <p style="padding: 5px">专业研发手机移动APP，微信公众号，网站建设，软件二次开发，软件定制开发等.</p>
-                                <p style="padding: 5px">品牌设计，精品UI，产品精修，三折页，Logo，图标设计，交互页面设计等.</p>
-                                <p style="padding-left: 5px;padding-top: 5px">技能技术拓展研发，兴趣业余开发拓展.</p>
-                                <a class="ac" href="our_course.html">Cooperate.</a>
-                                <a href="index.html">Innovation.</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="slider slider1">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-lg-12">
-                            <div class="bnr_text">
-                                <h1><span>Let’s Learn</span> For Bright Future</h1>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incidunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus comodo viverra maecenas accumsan lacus vel facilisis.</p>
-                                <div class="row">
-                                    <div class="col-lg-12">
-                                        <a class="active" href="our_course.html">Start a Course</a>
-                                        <a href="#">Take a Tour</a>
-                                    </div>
+    <!--*********************************
+            Cooperate part start
+       *******************************-->
+    <section id="cooperate-contact">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="mu-contact-area">
+                        <!-- Title -->
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="mu-title">
+                                    <h2>联系我们</h2>
                                 </div>
                             </div>
                         </div>
+                        <!-- Start Contact Content -->
+                        <div class="mu-contact-content">
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="mu-contact-form-area">
+                                        <div id="form-messages"></div>
+                                            <div class="form-group">
+                                                <span class="fa fa-user mu-contact-icon"></span>
+                                                <input type="text" class="form-control" placeholder="姓名" id="name"
+                                                       name="username" required>
+                                                <div id="nameError"></div>
+                                            </div>
+
+                                            <div class="form-group">
+                                                <span class="fa fa-pencil-square-o mu-contact-icon"></span>
+                                                <input type="text" class="form-control" placeholder="手机号码" id="phone"
+                                                       name="phone" required>
+                                                <div id="phoneError"></div>
+                                            </div>
+
+                                            <div class="form-group">
+                                                <span class="fa fa-envelope mu-contact-icon"></span>
+                                                <div class="fat">
+                                                    <input type="text" class="form-control" placeholder="邮箱" id="email"
+                                                           name="email" onkeyup="complete(this)" required>
+                                                    <div class="mail_box">
+                                                        <ul class="hide" id="em">
+                                                        </ul>
+                                                    </div>
+                                                    <div id="emailError"></div>
+                                                </div>
+                                            </div>
+
+                                            <div class="form-group">
+                                                <span class="fa fa-folder-open-o mu-contact-icon"></span>
+                                                <input type="text" class="form-control" placeholder="职业" id="occupation"
+                                                       name="occupation" required>
+                                                <div id="occupationError"></div>
+                                            </div>
+
+                                            <div class="form-group">
+                                                <span class="fa fa-pencil-square-o mu-contact-icon"></span>
+                                                <textarea class="form-control" placeholder="信息" id="message"
+                                                          name="message" required></textarea>
+                                                <div id="messageError"></div>
+                                            </div>
+
+                                            <input value="提交" type="submit" class="mu-send-msg-btn"/>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                        <!-- End Contact Content -->
                     </div>
                 </div>
             </div>
         </div>
     </section>
+    <!--*********************************
+           Cooperate part end
+      *******************************-->
+
 
     <!--*********************************
-         Our ContactInfo part start
-    *******************************-->
+            Our ContactInfo part start
+       *******************************-->
     <section id="contact-info">
         <div class="container">
             <div class="content-text">
@@ -210,11 +246,9 @@
           Our ContactInfo part end
     *******************************-->
 
-
-
     <!--*********************************
-       Our footer part Start
-    *******************************-->
+           Our footer part Start
+        *******************************-->
     <section id="footer">
         <div class="footer1">
             <div class="container">
@@ -249,6 +283,6 @@
     <script type="text/javascript" src="../js/moment.min.js"></script>
     <script type="text/javascript" src="../js/pb.calendar.min.js"></script>
     <script type="text/javascript" src="../js/main.js"></script>
-</body>
 
+</body>
 </html>
