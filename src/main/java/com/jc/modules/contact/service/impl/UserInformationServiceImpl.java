@@ -33,9 +33,9 @@ public class UserInformationServiceImpl extends ServiceImpl<UserInformationMappe
 //        } else if (userEntity.getMessage() == null || userEntity.getMessage() == "") {
 //            throw new JcException("信息为空");
 //        }
-        SimpleDateFormat simpleDateFormat = new SimpleDateFormat("yyyy-MM-dd HH-mm-ss");
-        if (userEntity.getContactTime() == null) {
-            userEntity.setContactTime(simpleDateFormat.parse(simpleDateFormat.format(userEntity.getContactTime())));
+
+        if(userEntity.getContactTime() == null ){
+            throw new JcException("未能获取当前时间");
         }
         userInformationMapper.insert(userEntity);
     }

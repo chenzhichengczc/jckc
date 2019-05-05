@@ -6,12 +6,9 @@ $(function () {
 
     $(".mu-send-msg-btn").on("click",function () {
         checkVal();
-        if(check){
-            commit();
-        }
+        checkMessage();
     });
 });
-
 
 var check = true;
 
@@ -22,18 +19,17 @@ var checkName = function () {
     $("#name").on("blur",function () {
         if(element.val() != ''){
             if(!pattern.test(element.val())){
-                document.getElementById("nameError").innerHTML = "用户名格式错误";
+                $("#nameError").html("用户名格式错误");
                 $("#nameError").css({color:"#ff0011"});
                 flag = false;
             }
         }else{
-            //element.css({"border":"block","border-bottom":"#cccccc 1px solid"});
-            document.getElementById("nameError").innerHTML = "";
+            $("#nameError").html("");
         }
     })
     $("#name").on("focus",function () {
         if(!flag){
-            $("#nameError").text() == '' ? true : document.getElementById("nameError").innerHTML = "";
+            $("#nameError").text() == '' ? true : $("#nameError").html("");
             flag = true;
         }
     })
@@ -46,52 +42,63 @@ var checkEmail = function () {
     $("#email").on("blur",function () {
         if(element.val() != ''){
             if(!pattern.test(element.val())){
-                document.getElementById("emailError").innerHTML = "邮箱格式错误";
+                $("#emailError").html("邮箱格式错误");
                 $("#emailError").css({color:"#ff0011"});
                 flag = false;
             }
         }else{
             //element.css({"border":"block","border-bottom":"#cccccc 1px solid"});
-            document.getElementById("emailError").innerHTML = "";
+            $("#emailError").html("");
         }
     })
     $("#email").on("focus",function () {
         if(!flag){
-            $("#emailError").text() == '' ? true : document.getElementById("emailError").innerHTML = "";
+            $("#emailError").text() == '' ? true : $("#emailError").html("");
             flag = true;
         }
     })
 }
 var checkPhone = function () {
     var flag = false;
-    var pattern = /((13[0-9])|(14[5,7])|(15[0-3,5-9])|(17[0,3,5-8])|(18[0-9])|166|198|199|(147))\d{8}/;
+    var pattern = /^(\(\d{3,4}\)|\d{3,4}-|\s)?\d{7,8}$|^1[3|4|5|7|8][0-9]{9}$/;
     var element = $("#phone");
     $("#phone").on("blur",function () {
         if(element.val() != ''){
             if(!pattern.test(element.val())){
-                document.getElementById("phoneError").innerHTML = "手机号码格式错误";
+                $("#phoneError").html("手机号码格式错误");
                 $("#phoneError").css({color:"#ff0011"});
                 flag = false;
             }
         }else{
             //element.css({"border":"block","border-bottom":"#cccccc 1px solid"});
-            document.getElementById("phoneError").innerHTML = "";
+            $("#phoneError").html("");
         }
     })
     $("#phone").on("focus",function () {
         if(!flag){
-            $("#phoneError").text() == '' ? true : document.getElementById("phoneError").innerHTML = "";
+            $("#phoneError").text() == '' ? true : $("#phoneError").html("");
             flag = true;
         }
     })
 }
 
+var checkMessage = function () {
+    var element = $("#message").val();
+    console.log("e: " + element);
+    if(element.length > 255){
+        alert("输入信息长度过长");
+    }
+    if(check){
+        commit();
+    }
+}
 
 
 /**
  * 提交按钮点击事件
  */
 var commit = function () {
+    console.log("hello");
     var url = "../user/insertUserInformation";
     var data = {name:$("#name").val(),phone:$("#phone").val(),email:$("#email").val(),job:$("#job").val(),message:$("#message").val(),contactTime:new Date()};
     console.log(data)
@@ -122,13 +129,16 @@ var  checkVal = function (){
     if (name == null || name == undefined || name == "") {
         check = false;
         alert("名字不能为空");
+        return;
     }
     if (phone == null || phone == undefined || phone == "") {
         check = false;
         alert("号码不能为空");
+        return;
     }
     if (email == null || email == undefined || email == "") {
         check = false;
         alert("邮箱不能为空");
+        return;
     }
 }
