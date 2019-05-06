@@ -21,12 +21,11 @@ $(function () {
         infinite: true,
         slidesToShow: 1,
         slidesToScroll: 1,
-        arrows: true,
         prevArrow: '<i class="fa fa-angle-left left_arrow"></i>',
         nextArrow: '<i class="fa fa-angle-right  right_arrow"></i>',
         dots: false,
-        autoplay: false,
-        autoplaySpeed: 3000,
+        autoplay: true,
+        autoplaySpeed: 5000,
         responsive: [
             {
                 breakpoint: 1024,

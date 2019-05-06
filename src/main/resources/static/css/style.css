@@ -321,7 +321,25 @@ button:focus {
 	z-index: 1;
 }
 
+.slider1 {
+	background: url(../images/banner0.png) left top no-repeat;
+	background-size: cover;
+	z-index: 2;
+	height: 723px;
+}
+
 .slider:before {
+	position: absolute;
+	content: "";
+	height: 100%;
+	width: 100%;
+	background-color: rgba(2, 2, 2, 0.4);
+	left: 0;
+	top: 0;
+	z-index: -1;
+}
+
+.slider1:before {
 	position: absolute;
 	content: "";
 	height: 100%;
