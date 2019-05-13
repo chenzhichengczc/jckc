@@ -5,15 +5,13 @@ server:
     min-spare-threads: 30
   port: 8080
   connection-timeout: 5000ms
-  servlet:
-    context-path: /jckc
 
 
 spring:
   # 环境 dev|test|prod 开发/测试/上线
   profiles:
 #    active: test
-    active: test
+    active: prod
   # 热部署
   devtools:
     restart:

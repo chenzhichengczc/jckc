@@ -19,8 +19,8 @@ import java.util.Date;
 public class BasicEntity implements Serializable {
 
     @ApiModelProperty(value = "创建时间",name = "createTime")
-    @TableField(value = "create_time")
-    private Date createTime;
+@TableField(value = "create_time")
+private Date createTime;
 
     @ApiModelProperty(value = "创建人",name = "createBy")
     @TableField(value = "create_by")

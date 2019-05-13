@@ -3,6 +3,7 @@ package com.jc.basic;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
 
 /**
  * @Author: Charles Chan
@@ -15,7 +16,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 public class CommonController {
 
     @RequestMapping("/{page}")
-    public String toPage(@PathVariable  String page){
+    public String toPage(@PathVariable String page){
         return page;
     }
 
