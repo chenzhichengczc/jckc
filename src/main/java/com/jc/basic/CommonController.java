@@ -12,7 +12,6 @@ import org.springframework.web.bind.annotation.RestController;
  */
 
 @Controller
-@RequestMapping("/page")
 public class CommonController {
 
     @RequestMapping("/{page}")
